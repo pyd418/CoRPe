@@ -273,7 +273,7 @@ if __name__ == '__main__':
                         type=float,
                         help="Epsilon for Adam optimizer.")
     parser.add_argument("--train_corpus",
-                        default="corpus_path_3.txt",
+                        default="",
                         type=str,
                         help="The input train corpus.")
     parser.add_argument("--on_memory",
